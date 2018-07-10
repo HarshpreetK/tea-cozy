@@ -1,3 +1,4 @@
+/*Global Styles*/
 body{
   font-family: helvetica;
   font-size: 22px;
@@ -6,9 +7,12 @@ body{
   opacity: 0.9;
   margin: 0px auto;
 }
+
 a{
   color: white;
 }
+
+/*Header Styles*/
 
 header{
   display: flex;
@@ -23,10 +27,7 @@ header{
   z-index: 1;
 }
 
-#logo img{
-  height: 50px;
-  padding-left: 10px;
-}
+/*Navigation Styles*/
 
 nav{
   background-color: black;
@@ -35,12 +36,21 @@ nav{
   text-align: right;
   flex-grow: 1;
 }
+
 nav .navigation{
   padding-right: 10px;
 }
 
+/*Logo*/
+
+#logo img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+/*Main Content Starts*/
+
 #main-content{
-  border: 2px solid red;
   background-color: black;
   width: 1200px;
   margin: auto;
@@ -50,7 +60,6 @@ nav .navigation{
   height: 700px;
   background-image: url(./images/img-mission-background.jpg);
   background-size: cover;
-  width: auto;
   margin: 0 auto;
   width: 1200px;
   text-align: center;
@@ -59,6 +68,27 @@ nav .navigation{
   padding-top: 69px;
   justify-content: center;
 }
+
 #mission .mission-statement{
   background-color: black;
+}
+
+#featured-tea{
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+
+#featured-tea .tea-of-the-month{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#featured-tea .tea-of-the-month img{
+  height: 200px;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
 }

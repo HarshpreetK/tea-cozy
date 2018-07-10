@@ -142,4 +142,15 @@ nav .navigation{
   background-color: black;
   margin: 0 auto;
   opacity: 1;
+  margin: 5px 20px;
+}
+
+/*Footer Styles start*/
+footer h2, h5{
+  text-align: center;
+}
+
+footer .copyright h5{
+  text-align: left;
+  padding-left: 20px;
 }

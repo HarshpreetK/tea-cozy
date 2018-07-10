@@ -28,17 +28,27 @@ header{
 }
 
 /*Navigation Styles*/
-
-nav{
-  background-color: black;
-  display: block;
-  margin-right: 0px;
-  text-align: right;
-  flex-grow: 1;
+#header-nav{
+  position: fixed;
+  display: inline-block;
+  right: 20px;
+  padding: 20px 10px;
 }
 
-nav .navigation{
-  padding-right: 10px;
+#header-nav nav{
+  background-color: black;
+  display: block;
+  text-align: right;
+  flex-grow: 1;
+  width: 100%;
+  text-align: right;
+  height: 69px;
+  align-items: flex-end;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 /*Logo*/

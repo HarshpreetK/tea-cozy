@@ -73,10 +73,13 @@ nav .navigation{
   background-color: black;
 }
 
+/*Featured Tea div styles*/
+
 #featured-tea{
   margin: 0 auto;
   width: 1000px;
   text-align: center;
+  height: 770px;
 }
 
 #featured-tea .tea-of-the-month{
@@ -91,4 +94,52 @@ nav .navigation{
   width: auto;
   padding: 5px;
   margin: 10px;
+}
+
+/*Locations Div styles*/
+
+#locations{
+  height: 500px;
+  width: 1200px;
+  background-image: url(./images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+#locations .addresses{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+#locations h2{
+  padding: 10px;
+  margin:5px 20px;
+}
+
+#locations h3{
+  padding-bottom: 15px;
+  margin: 0 auto,
+}
+
+#locations p{
+  padding-bottom: 15px;
+  margin: 0 auto,
+}
+
+.downtown,
+.east-bayside,
+.oakdale{
+  flex-basis: 280px;
+  background-color: black;
+  margin: 0 auto;
+  opacity: 1;
 }

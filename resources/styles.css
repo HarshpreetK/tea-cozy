@@ -4,7 +4,7 @@ body{
   background-color: black;
   color: seashell;
   opacity: 0.9;
-  margin-top: 0px;
+  margin: 0px auto;
 }
 a{
   color: white;
@@ -19,7 +19,6 @@ header{
   align-items: center;
   width: 100%;
   border-bottom: 1px solid seashell;
-  margin: auto 0;
   flex-wrap: wrap;
   z-index: 1;
 }
@@ -30,23 +29,21 @@ header{
 }
 
 nav{
-  border: 2px solid white;
+  background-color: black;
   display: block;
   margin-right: 0px;
   text-align: right;
-  text-align: right;
   flex-grow: 1;
 }
-
-.navigation {
-  background-color: black;
+nav .navigation{
+  padding-right: 10px;
 }
+
 #main-content{
   border: 2px solid red;
   background-color: black;
   width: 1200px;
   margin: auto;
-  padding-top: 69px;
 }
 
 #mission{
@@ -56,5 +53,12 @@ nav{
   width: auto;
   margin: 0 auto;
   width: 1200px;
-
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 69px;
+  justify-content: center;
+}
+#mission .mission-statement{
+  background-color: black;
 }

@@ -164,3 +164,9 @@ footer .copyright h5{
   text-align: left;
   padding-left: 20px;
 }
+
+footer .footer-nav{
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
